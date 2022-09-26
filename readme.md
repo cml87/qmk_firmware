@@ -1,3 +1,9 @@
+
+# convert keymap.c to json
+qmk c2json -km gambarimas87 -kb sofle/rev1 ~/qmk_firmware/keyboards/sofle/keymaps/gambarimas87/keymap.c  -o ~/tt.json
+
+
+-------------
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
