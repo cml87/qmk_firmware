@@ -5,6 +5,8 @@ qmk c2json -km gambarimas87 -kb sofle/rev1 ~/qmk_firmware/keyboards/sofle/keymap
 ## convert json to keymap.c
 qmk json2c2 C:/Users/[USERSAME]/qmk_firmware/keyboards/JNAO/keymaps/JoeNAO/keymap.json
 
+## compile a keymap !
+qmk compile -kb sofle/rev1 -km gambarimas87
 
 -------------
 # Quantum Mechanical Keyboard Firmware
