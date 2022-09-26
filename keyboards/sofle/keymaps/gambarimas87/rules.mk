@@ -5,6 +5,7 @@ ENCODER_ENABLE = yes
 CONSOLE_ENABLE = no
 EXTRAKEY_ENABLE = yes
 MOUSEKEY_ENABLE = yes
+TAP_DANCE = yes
 
 # Bootloader selection
 BOOTLOADER = atmel-dfu
