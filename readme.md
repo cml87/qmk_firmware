@@ -8,6 +8,32 @@ qmk json2c2 C:/Users/[USERSAME]/qmk_firmware/keyboards/JNAO/keymaps/JoeNAO/keyma
 ## compile a keymap !
 qmk compile -kb sofle/rev1 -km gambarimas87
 
+# files
+```text
+## rules.mk
+
+OLED_ENABLE = yes
+OLED_DRIVER = SSD1306
+ENCODER_ENABLE = yes
+CONSOLE_ENABLE = no
+EXTRAKEY_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+
+# Bootloader selection
+BOOTLOADER = atmel-dfu 
+```
+
+```text
+# config.h
+#pragma once
+/* The way how "handedness" is decided (which half is which),
+see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
+for more options.
+*/
+#define SPLIT_USB_DETECT
+```
+
+
 -------------
 # Quantum Mechanical Keyboard Firmware
 
