@@ -6,4 +6,6 @@ for more options.
 #define SPLIT_USB_DETECT
 
 
-#define TAPPING_TERM = 200  // time period for double press to be detected 
+/* this is defined in sofle/rev1/config.h
+ #define TAPPING_TERM 200  // time period for double press to be detected 
+ */
