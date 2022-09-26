@@ -1,6 +1,9 @@
 
-# convert keymap.c to json
+## convert keymap.c to json
 qmk c2json -km gambarimas87 -kb sofle/rev1 ~/qmk_firmware/keyboards/sofle/keymaps/gambarimas87/keymap.c  -o ~/tt.json
+
+## convert json to keymap.c
+qmk json2c2 C:/Users/[USERSAME]/qmk_firmware/keyboards/JNAO/keymaps/JoeNAO/keymap.json
 
 
 -------------
