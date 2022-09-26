@@ -8,6 +8,10 @@ qmk json2c2 C:/Users/[USERSAME]/qmk_firmware/keyboards/JNAO/keymaps/JoeNAO/keyma
 ## compile a keymap !
 qmk compile -kb sofle/rev1 -km gambarimas87
 
+# config default keyboard and keymap
+qmk config user.keyboard=sofle/rev1
+qmk config user.keymap=gambarimas87
+
 # files
 ```text
 ## rules.mk
