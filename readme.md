@@ -12,6 +12,14 @@ qmk compile -kb sofle/rev1 -km gambarimas87
 qmk config user.keyboard=sofle/rev1
 qmk config user.keymap=gambarimas87
 
+# compiling
+Before compiling it is necessary to do 
+```shell
+$ make git-submodule
+```
+After we can do `qmk compile` which will use the default keyboard and key defined above.
+
+
 # files
 ```text
 ## rules.mk
