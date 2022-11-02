@@ -30,6 +30,7 @@ ENCODER_ENABLE = yes
 CONSOLE_ENABLE = no
 EXTRAKEY_ENABLE = yes
 MOUSEKEY_ENABLE = yes
+TAP_DANCE_ENABLE = yes ## needed to make work the tap dance
 
 # Bootloader selection
 BOOTLOADER = atmel-dfu 
