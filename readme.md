@@ -19,6 +19,12 @@ $ make git-submodule
 ```
 After we can do `qmk compile` which will use the default keyboard and key defined above.
 
+# flashing
+1. Unplug the keyboard and disconnect one half from the other (RSA cable)
+2. Connect one half and put it in DFU (Bootloader) mode by pressing the reset button for 8 seconds
+3. $ qmk flash
+4. Repeat for the other half. For the second half keep the RSA cable connected to it, but unplugged from the other half
+
 
 # files
 ```text
