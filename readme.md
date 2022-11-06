@@ -23,7 +23,8 @@ After we can do `qmk compile` which will use the default keyboard and key define
 1. Unplug the keyboard and disconnect one half from the other (RSA cable)
 2. Connect one half and put it in DFU (Bootloader) mode by pressing the reset button for 8 seconds
 3. $ qmk flash
-4. Repeat for the other half. For the second half keep the RSA cable connected to it, but unplugged from the other half
+4. Unplug the cable from one half and plug it into the other. Put in DFU and do $ qmk flash
+5. Unplug keyboard cable from the computer, connect both halves, plug the cable in the left (master) half. Connect the keyboard to the pc.
 
 
 # files
